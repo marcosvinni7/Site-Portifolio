@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Nação 1895: camisas oficiais do Flamengo 2026/27 e retrôs mais vendidas.">
+	<title>Nação 1895 | Camisas do Flamengo</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="announcement">Frete grátis nas compras acima de R$ 299 · Envio para todo o Brasil</div>
+	<header>
+		<a class="brand" href="#inicio"><span class="crest"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Clube_de_Regatas_do_Flamengo_logo.svg" alt="Logo oficial do Flamengo"></span><span class="brand-name">NAÇÃO 1895<span>FUTEBOL CLUBE</span></span></a>
+		<nav><a href="#colecao">Coleção 26/27</a><a href="#retro">Retrôs</a><a href="#manifesto">Manifesto</a></nav>
+		<div class="header-actions"><button class="icon-btn" aria-label="Abrir busca">⌕</button><button class="icon-btn" id="cart-button" aria-label="Abrir carrinho">♧<span class="cart-count">0</span></button></div>
+	</header>
+
+	<main id="inicio">
+		<section class="hero"><div class="hero-content"><div class="eyebrow">Nova coleção · 2026 / 27</div><h1>O manto.<br><em>A nossa pele.</em></h1><p>Linhas que carregam história. A nova camisa do Mengão chega para vestir a próxima geração de rubro-negros.</p><a class="primary-btn" href="#colecao">Ver coleção 26/27</a></div></section>
+		<div class="ticker"><span><b>✦</b> Clube de Regatas do Flamengo</span><span><b>✦</b> Desde 1895</span><span><b>✦</b> Uma vez Flamengo, sempre Flamengo</span></div>
+
+		<section class="shop" id="colecao">
+			<div class="section-head"><div><div class="section-kicker">Para vestir o presente</div><h2>Temporada 26/27</h2></div><div class="filters"><input class="search" id="search" type="search" placeholder="Buscar camisa..." aria-label="Buscar camisa"><button class="filter active" data-filter="all">Todas</button><button class="filter" data-filter="current">Atual</button><button class="filter" data-filter="retro">Retrôs</button></div></div>
+			<div class="product-grid" id="product-grid"></div>
+		</section>
+		<section class="story" id="manifesto"><h2>Mais que um<br>uniforme.</h2><p>É o abraço no gol, a camisa no varal, o vermelho e preto que atravessa gerações. Na Nação 1895, cada peça é escolhida para honrar o passado e jogar junto com o futuro.</p></section>
+	</main>
+	<footer><span class="brand-name">NAÇÃO 1895<span>FUTEBOL CLUBE</span></span><small>© 2026 Nação 1895. Produto inspirado na paixão rubro-negra.</small></footer>
+
+	<aside class="drawer" id="drawer" aria-label="Carrinho de compras"><div class="drawer-head"><h3>Seu carrinho</h3><button class="close" id="close-cart" aria-label="Fechar carrinho">×</button></div><div class="cart-items" id="cart-items"><p class="empty">Seu carrinho está vazio.<br>Escolha um manto para começar.</p></div><div class="cart-footer"><div class="total"><span>Total</span><span id="cart-total">R$ 0,00</span></div><button class="primary-btn checkout">Finalizar pedido</button></div></aside>
+	<script src="script.js"></script>
+</body>
+</html>
