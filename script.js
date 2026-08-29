@@ -1,6 +1,6 @@
 const products = [
-	{ id: 1, name: 'Camisa I Flamengo 26/27', category: 'current', label: 'Lançamento', price: 349.90, style: 'shirt-home', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZtBSzCKXksAsLHYow4HkCXWtUQdVx46VL9sLZDsrTbQ&s' },
-	{ id: 2, name: 'Camisa II Flamengo 26/27', category: 'current', label: 'Nova', price: 329.90, style: 'shirt-away', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbCygfYjQ5_KLUhN2tTSedszo7LqdR3qIzG94lhSjSDQ&s' },
+	{ id: 1, name: 'Camisa I Flamengo 26/27', category: 'current', label: 'Lançamento', price: 349.90, style: 'shirt-home', image: 'imagens/Camisa01.jpg' },
+	{ id: 2, name: 'Camisa II Flamengo 26/27', category: 'current', label: 'Nova', price: 329.90, style: 'shirt-away', image: 'imagens/Camisa02.jpg' },
 	{ id: 3, name: 'Camisa Flamengo 1981', category: 'retro', label: 'Mais vendida', price: 289.90, style: 'shirt-retro', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRceLCmjET8HZMyRSUpRjYd-MieT-c5P190O7SeiJTaIg&s=10' },
 	{ id: 4, name: 'Camisa Flamengo 1992', category: 'retro', label: 'Clássica', price: 279.90, style: 'shirt-black', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO9eB6lJbry8_OqYnFnpmVlW0nIYuKlYgmIyVOhpX9uw&s=10' },
 	{ id: 5, name: 'Camisa III Flamengo 26/27', category: 'current', label: 'Edição limitada', price: 319.90, style: 'shirt-away', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqOpEduz1_n3dYkRu2mcoufPzW2DjnPCmYUMkqzRKTdw&s' },
